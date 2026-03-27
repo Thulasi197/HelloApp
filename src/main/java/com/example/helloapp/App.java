@@ -1,12 +1,12 @@
 package com.example.helloapp;
-/**
- * HelloApp - UC1 - Display Hello World
- */
+//HELLOAPP UC2
+import java.util.*;
 public class App {
     public static void main(String[] args) {
-        
-        // Display Hello World to console
-        System.out.println("Hello World");
-        
+        if (args.length > 0) {
+            System.out.println("Hello " + args[0]);
+        } else {
+            System.out.println("Hello User");
+        }
     }
 }
