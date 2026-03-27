@@ -1,6 +1,4 @@
 package com.example.helloapp;
-//HELLOAPP UC2
-import java.util.*;
 public class App {
     public static void main(String[] args) {
         if (args.length > 0) {
