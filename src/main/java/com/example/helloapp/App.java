@@ -3,17 +3,15 @@ import java.util.*;
 public class App {
 	    public static void main(String[] args) {
 
-	        String name;
-
-	        // Check if argument is provided
-	        if (args.length > 0) {
-	            name = args[0];
+	        // If no arguments are passed
+	        if (args.length == 0) {
+	            System.out.println("Hello, World!");
 	        } else {
-	            name = "World"; // Default value
+	            // Loop through all names
+	            for (String name : args) {
+	                System.out.println("Hello, " + name + "!");
+	            }
 	        }
-
-	        System.out.println("Hello, " + name + "!");
 	    }
 	}
-
     
